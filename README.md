@@ -1,4 +1,5 @@
 # LinkedIn Job Scraper & AI Vacancy Analyzer
+![Title](images/title.png)
 
 ## 📌 Project Overview
 This project automates the process of finding and analyzing LinkedIn job postings based on:
