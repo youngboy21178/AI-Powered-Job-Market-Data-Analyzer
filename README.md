@@ -1,6 +1,8 @@
 # LinkedIn Job Scraper & AI Vacancy Analyzer
 ![Title](images/title.png)
 
+---
+
 ## 📌 Project Overview
 This project automates the process of finding and analyzing LinkedIn job postings based on:
 - **Country** specified by the user
@@ -9,7 +11,11 @@ This project automates the process of finding and analyzing LinkedIn job posting
 
 Once the vacancies are collected, the project uses a **locally running AI model (Qwen3-8B)** to extract structured job information from the job descriptions.
 
-Example AI output:
+![Code Running](images/code_run.png)
+
+---
+
+### 🧠 Example AI output
 ```json
 [{
   "job_title": "Lead API Python Developer",
@@ -32,3 +38,10 @@ Example AI output:
   ]
 }]
 ```
+### 📊 Data Visualization
+After the AI processes the job data, it is stored in a database and visualized with Matplotlib.
+
+Here are some example visualizations:
+![Visualization](images/visualization1.png)
+![Visualization](images/visualization2.png)
+![Visualization](images/visualization3.png)
